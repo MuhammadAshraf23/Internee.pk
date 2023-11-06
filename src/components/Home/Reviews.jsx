@@ -16,9 +16,6 @@ const Reviews = () => {
       };
   return (
     <>
-    <div className='bg-blue-100 py-40'>
-          <h1 className='text-5xl text-center'>Happy Internee Reviews</h1>
-    </div>
     <div className="bg-cover bg-center bg-top h-full relative pt-20" style={heroImg}>
       <div className="absolute inset-0" style={overlayStyle}></div>
       <div className="container mx-auto h-full flex items-center relative">

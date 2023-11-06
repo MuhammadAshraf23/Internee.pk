@@ -74,7 +74,7 @@ export default function Footer() {
                         <div className='relative pb-10'>
                             <BsPerson className='absolute top-12 left-8' />
                             <input type="text" placeholder='yourname@gmail.com' className='p-5 px-10 rounded-full m-5 outline-none' />
-                            <CiLocationArrow1 class="absolute top-10 bottom-0 left-60 text-green-500 text-2xl" />
+                            <CiLocationArrow1 className="absolute top-10 bottom-0 left-60 text-green-500 text-2xl" />
                         </div>
                     </div>
                 </div>

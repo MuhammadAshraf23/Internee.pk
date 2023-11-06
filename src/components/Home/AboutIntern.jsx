@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About = () => {
+const AboutIntern = () => {
     const img = {
         height: '750px',
 
@@ -53,4 +53,4 @@ const About = () => {
     )
 }
 
-export default About
+export default AboutIntern;

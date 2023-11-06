@@ -120,22 +120,22 @@ export default function Navbar() {
               <div className="flex items-center justify-between">
                 <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
 
-                  <Link to={'/allproducts'} className="text-lg text-gray-700 text-indigo-500 ">
+                  <Link to={'/'} className="text-lg text-gray-700 text-indigo-500 ">
                     Home
                   </Link>
-                  <Link to={'/order'} className="text-lg text-gray-700 hover:text-indigo-500">
+                  <Link to={'/about'} className="text-lg text-gray-700 hover:text-indigo-500">
                     About
                   </Link>
-                  <Link to={'/dashboard'} className="text-lg text-gray-700 hover:text-indigo-500 " >
+                  <Link to={'/contact'} className="text-lg text-gray-700 hover:text-indigo-500 " >
                     Contact
                   </Link>
-                   <Link to={'/dashboard'} className="text-lg text-gray-700 hover:text-indigo-500 " >
+                   <Link to={'/internships'} className="text-lg text-gray-700 hover:text-indigo-500 " >
                     Internships
                   </Link>
-                  <Link to={'/dashboard'} className="text-lg text-gray-700 hover:text-indigo-500 " >
+                  <Link to={'/cms'} className="text-lg text-gray-700 hover:text-indigo-500 " >
                     CMS
                   </Link>
-                  <Link to={'/dashboard'} className="text-lg text-gray-700 hover:text-indigo-500 " >
+                  <Link to={'/jobportal'} className="text-lg text-gray-700 hover:text-indigo-500 " >
                     Job Portals
                   </Link>
                 </div>
