@@ -3,8 +3,8 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import { Button, Typography } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
-import {IoLocationOutline} from 'react-icons/io5'
-import {BiTime} from 'react-icons/bi'
+import { IoLocationOutline } from 'react-icons/io5'
+import { BiTime } from 'react-icons/bi'
 const trendingCardData = [
     {
         image:
@@ -46,10 +46,10 @@ const trendingCardData = [
 const RecentInternships = () => {
 
     return (
-        <div className='mx-20'>
+        <div className='mx-20 my-20'>
             <div className='w-1/2'>
-            <h1 className='text-4xl font-bold py-10'>Recent Internships</h1>
-            <p className='text-gray-500 text-lg'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
+                <h1 className='text-4xl font-bold py-10'>Recent Internships</h1>
+                <p className='text-gray-500 text-lg'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
             </div>
             <div className='flex flex-wrap justify-between my-10'>
                 {trendingCardData.map((items) => (
@@ -65,18 +65,22 @@ const RecentInternships = () => {
                                 <Typography variant="h6" fontWeight="bold">
                                     {items.title}
                                 </Typography>
-                                <div className='flex items-center ' >                    
-                                <IoLocationOutline className='text-green-500' /> <p className='mr-5 ml-1 text-gray-400'>Remote</p>
-                                <BiTime className='text-green-500' /> <p className='ml-1 text-gray-400'>1 Month</p>                             
+                                <div className='flex items-center ' >
+                                    <IoLocationOutline className='text-green-500' /> <p className='mr-5 ml-1 text-gray-400'>Remote</p>
+                                    <BiTime className='text-green-500' /> <p className='ml-1 text-gray-400'>1 Month</p>
                                 </div>
                             </CardContent> <hr />
                             <div className='flex justify-end py-5 px-5'>
-                            <Button variant="contained" style={{borderRadius:'30px',padding:'10px 12px'}}>Apply Now</Button>
+                                <Button variant="contained" style={{ borderRadius: '30px', padding: '10px 12px' }}>Apply Now</Button>
                             </div>
                         </Card>
                     </div>
                 ))}
+
             </div>
+            <div className='flex justify-end pb-10'>
+            <Button variant="contained" style={{ borderRadius: '30px', padding: '20px 40px', textTransform: 'capitalize',fontSize:"20px" }}>Browser Internships</Button>
+        </div>
         </div>
 
     )
