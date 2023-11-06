@@ -47,8 +47,10 @@ const RecentInternships = () => {
 
     return (
         <div className='mx-20'>
+            <div className='w-1/2'>
             <h1 className='text-4xl font-bold py-10'>Recent Internships</h1>
-            <p><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
+            <p className='text-gray-500 text-lg'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
+            </div>
             <div className='flex flex-wrap justify-between my-10'>
                 {trendingCardData.map((items) => (
                     <div className='w-1/3 p-2 hover:shadow-2xl' key={items.title}>

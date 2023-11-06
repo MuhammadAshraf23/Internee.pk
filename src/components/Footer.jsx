@@ -1,10 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
 import { SiWebmoney } from 'react-icons/si'
-import { BsTelephoneForward } from 'react-icons/bs';
+import { BsPerson, BsTelephoneForward } from 'react-icons/bs';
 import { AiOutlineMail } from 'react-icons/ai';
+import {CiLocationArrow1} from 'react-icons/ci'
 export default function Footer() {
     return (
         <footer className="body-font">
@@ -18,7 +17,7 @@ export default function Footer() {
                         </div>
                     </div>
                 </Link>
-                <div className="flex flex-wrap md:text-left text-center order-first">
+                <div className="flex flex-wrap md:text-left text-center justify-between">
                     <div className="lg:w-1/4 md:w-1/2 w-full px-10 pt-5">
                         <nav className="list-none mb-10">
                             <li className='flex items-center text-green-500'>
@@ -70,18 +69,10 @@ export default function Footer() {
                             </li>
                         </nav>
                     </div>
-                    <div className="lg:w-1/4 md:w-1/2 w-full px-4 bg-gray-100">
-                        <Box
-                            component="form"
-                            sx={{
-                                '& > :not(style)': { m: 1, width: '26ch' },
-                            }}
-                            noValidate
-                            autoComplete="off"
-                        >
-                            <h2 className='text-1xl font-bold'>Get Updates About Internships</h2>
-                            <TextField id="filled-basic" label="yourname@gmail.com" variant='filled' />
-                        </Box>
+                    <div className="lg:w-1/4 md:w-1/2 w-full px-10 bg-blue-50 rounded-md">
+                            <h2 className='text-xl font-bold mt-5'>Get Updates About Internships</h2>
+                            <div>
+                         <BsPerson/> <input type="text" placeholder='yourname@gmail.com' className='p-5 rounded-full m-5 outline-none'/>    <CiLocationArrow1 /> </div>              
                     </div>
                 </div>
             </div>
