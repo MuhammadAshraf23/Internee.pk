@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from '../Layout/Layout'
 import HeroSection from '../components/Internships/HeroSection'
 import Reviews from '../components/Home/Reviews'
+import RecentInternships from '../components/Home/RecentInternships'
 
 
 const Internships = () => {
@@ -10,7 +11,10 @@ const Internships = () => {
         
      <Layout>
     <HeroSection/>
-    <Internships />
+    <div className='pt-48 px-20 font-bold '>
+      <h1 className='text-3xl'>Internships on Different Tech Domain</h1>
+    </div>
+    <RecentInternships />
     <Reviews />
     </Layout>
     </div>

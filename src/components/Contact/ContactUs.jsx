@@ -5,9 +5,9 @@ import { TfiEmail } from 'react-icons/tfi'
 function ContactUs() {
   return (
     <div className="flex flex-col lg:flex-col justify-center space-y-4 lg:space-y-0">
-      <div className='flex flex-row'>
+      <div className='flex lg:flex-row md:flex-col'>
         <div className="lg:w-1/2 mb-3 mx-20 my-20">
-          <iframe className="google-map w-full h-5/6 rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14468.480271972865!2d66.9630595!3d24.962029249999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1684627801858!5m2!1sen!2s" height="350" style={{ border: '0' }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          <iframe className="google-map w-full lg:h-5/6 md:h-full rounded-3xl" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14468.480271972865!2d66.9630595!3d24.962029249999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1684627801858!5m2!1sen!2s" height="350" style={{ border: '0' }} allowFullScreen={true} loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
         </div>
 
         <div className="lg:w-1/2 my-20">

@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Internships from "./pages/Internships";
 import CMS from "./pages/CMS";
 import JobPortal from "./pages/JobPortal";
+import './App.css'
 function App() {
 
   return (

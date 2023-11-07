@@ -42,18 +42,32 @@ const trendingCardData = [
         title:
             'Chatbot Developement',
     },
+    {
+        image:
+            'https://internee.pk/images/jobs/Machine%20Learning.jpeg',
+        title:
+            'Machine Learning',
+    },
+    {
+        image:
+            'https://internee.pk/images/jobs/Mobile%20App%20Developer.jpeg',
+        title:
+            'Mobile App Developement',
+    },
+    {
+        image:
+            'https://internee.pk/images/jobs/logo-designer-working-computer-desktop.jpg',
+        title:
+            'Graphic Design',
+    },
 ];
 const RecentInternships = () => {
 
     return (
-        <div className='mx-20 my-20'>
-            <div className='w-1/2'>
-                <h1 className='text-4xl font-bold py-10'>Recent Internships</h1>
-                <p className='text-gray-500 text-lg'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
-            </div>
+        <>  <div className='mx-auto'>
             <div className='flex flex-wrap justify-between my-10'>
                 {trendingCardData.map((items) => (
-                    <div className='w-1/3 p-2 hover:shadow-2xl' key={items.title}>
+                    <div className='w-full sm:w-1/2 md:w-1/2 lg:w-1/3 px-3 py-5 hover:shadow-2xl' key={items.title}>
                         <Card className='all-card'>
                             <CardMedia
                                 component="img"
@@ -82,7 +96,7 @@ const RecentInternships = () => {
             <Button variant="contained" style={{ borderRadius: '30px', padding: '20px 40px', textTransform: 'capitalize',fontSize:"20px" }}>Browser Internships</Button>
         </div>
         </div>
-
+        </>
     )
 }
 

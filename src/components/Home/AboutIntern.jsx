@@ -1,5 +1,5 @@
 import React from 'react'
-
+import '../../App.css'
 const AboutIntern = () => {
     const img = {
         height: '750px',
@@ -11,22 +11,20 @@ const AboutIntern = () => {
         right: "0",
         margin: '20px',
         padding: '20px',
-
-
     }
     return (
-        <div className='container flex mx-auto mt-20 justify-center w-full'>
-            <div className='w-1/4 h-100'>
-                <div className='bg-green-500 h-100 rounded-l-lg relative'>
-                    <img src="https://internee.pk/images/founder.jpg" style={img} className='about-image rounded-l-lg img-fluid object-cover h-full' alt="" />
+        <div className='container lg:flex mx-auto mt-20 justify-center w-full'>
+            <div className='lg:w-1/4 h-100 md:w-full lg:pr-5 md:pr-0  '>
+                <div className='bg-green-500 h-100 rounded-l-3xl relative'>
+                    <img src="https://internee.pk/images/founder.jpg" style={img} className='about-image rounded-l-3xl img-fluid object-cover h-full md:w-full' alt="" />
 
-                    <div className='about-info bg-green-500 p-3 rounded-md' style={aboutInfo}>
+                    <div className='about-info bg-green-500 p-3 rounded-3xl' style={aboutInfo}>
                         <h4 className='text-white mb-0 me-2 text-3xl font-bold'>Hammad  Sheikh</h4>
                         <p className='text-white mb-0'>Founder</p>
                     </div>
                 </div>
             </div>
-                <div className='custom-text-block bg-indigo-500 mx-5 px-20 py-20' style={{ height: '750px',width:'500px' }} >
+                <div className='custom-text-block bg-indigo-500 px-20 py-20 w-full'>
                     <h2 className='text-white mb-2 font-bold text-4xl leading-relaxed'>Welcome to Internee.pk</h2>
                     <p className='text-white leading-relaxed'>
                         Our internship program is designed to give students the opportunity to work on meaningful projects and tasks, while also receiving mentorship and guidance from experienced professionals in the field. Our goal is to help interns develop the skills and knowledge they need to succeed in their careers, while also building a strong network of talented individuals who may become valuable members of our team in the future. If you're looking for a challenging and rewarding internship experience, we invite you to explore our program and
@@ -39,9 +37,9 @@ const AboutIntern = () => {
                     </div>
                 </div>
 
-            <div className='lg:w-1/4 w-50'>
-                <div className='h-100 rounded-r-lg relative'>
-                    <img src="https://internee.pk/images/rayyan.jpg" style={img} className='about-image rounded-r-lg img-fluid object-cover w-full h-full' alt="" />
+            <div className='lg:w-1/4 w-50 lg:pl-5  md:pl-0'>
+                <div className='h-100 rounded-r-3xl relative'>
+                    <img src="https://internee.pk/images/rayyan.jpg" style={img} className='about-image rounded-r-3xl img-fluid object-cover w-full h-full' alt="" />
                     <div className='about-info bg-green-500 p-3 rounded-md' style={aboutInfo}>
                         <h4 className='text-white mb-0 me-2 text-3xl font-bold'>Rayyan Zain</h4>
                         <p className='text-white mb-0'>CMO</p>

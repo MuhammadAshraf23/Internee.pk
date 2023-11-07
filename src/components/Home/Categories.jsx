@@ -16,7 +16,7 @@ const Categories = () => {
         <div className='py-12'>
             <h1 className='text-4xl font-bold text-center py-10 mb-10'>Browser By Categories</h1>
             <div className='flex justify-center flex-wrap'>
-                <div className="w-10 md:w-1/3 lg:w-1/6">
+                <div className="lg:w-1/6 md:w-1/3 sm:w-1/3 ">
                     <div className="relative p-4 text-center mx-4 bg-green-500 h-full py-10" style={{borderRadius:'100%',borderColor:'indigo',borderWidth: '8px' }}>
                         <a href="web-design.html" className="text-white flex flex-col justify-center items-center h-full">
                             <CgBrowser size={32}/>
@@ -27,7 +27,7 @@ const Categories = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/6 md:w-1/3 lg:w-1/6">
+                <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
                     <div className="relative p-4 mx-4 text-center bg-green-500 h-full py-10" style={{borderRadius:'100%',borderColor:'indigo',borderWidth: '8px' }}>
                         <a href="web-design.html" className="text-white flex flex-col justify-center items-center h-full">
                             <SiWebmoney size={32} />
@@ -38,7 +38,7 @@ const Categories = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/6 md:w-1/3 lg:w-1/6">
+                <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
                     <div className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10" style={{borderRadius:'100%',borderColor:'indigo',borderWidth: '8px' }}>
                         <a href="web-design.html" className="text-white flex flex-col justify-center items-center h-full">
                             <BsRobot size={32} />
@@ -49,7 +49,7 @@ const Categories = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/6 md:w-1/3 lg:w-1/6">
+                <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
                     <div className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10" style={{borderRadius:'100%',borderColor:'indigo',borderWidth: '8px' }}>
                         <a href="web-design.html" className="text-white flex flex-col justify-center items-center h-full">
                             <PiPenNibBold size={32} />
@@ -60,7 +60,7 @@ const Categories = () => {
                         </a>
                     </div>
                 </div>
-                <div className="w-1/6 md:w-1/3 lg:w-1/6">
+                <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
                     <div className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10" style={{borderRadius:'100%',borderColor:'indigo',borderWidth: '8px' }}>
                         <a href="web-design.html" className="text-white flex flex-col justify-center items-center h-full">
                             <AiOutlineMobile  size={32}/>
