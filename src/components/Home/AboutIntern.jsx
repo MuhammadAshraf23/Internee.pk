@@ -33,8 +33,8 @@ const AboutIntern = () => {
           </div>
         </div>
       </div>
-      <div className="custom-text-block bg-indigo-500 px-20 py-20 w-full">
-        <h2 className="text-white mb-2 font-bold text-4xl leading-relaxed">
+      <div className="custom-text-block bg-indigo-500 px-20 py-20 max-sm:px-5 max-sm:py-8 w-full">
+        <h2 className="text-white mb-2 font-bold text-4xl max-sm:text-xl leading-relaxed">
           Welcome to Internee.pk
         </h2>
         <p className="text-white leading-relaxed">
