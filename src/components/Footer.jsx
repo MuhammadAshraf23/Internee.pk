@@ -9,30 +9,16 @@ export default function Footer() {
   return (
     <footer className="body-font">
       <div className="container px-5 py-24 mx-auto">
-        <div className="md:flex md:text-left text-center justify-between w-full">
-          <div
-            className="lg:w-1/4 md:w-full w-full px-10"
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
+        <div className="flex flex-wrap md:text-left lg:text-center md:text-center  justify-between w-full">
+          <div className="lg:w-1/4 md:w-1/2 max-sm:w-full px-10 flex lg:justify-center lg:items-center flex-col max-sm:items-start">
             <Link to={"/"}>
-              <div style={{ display: "flex", justifyContent: "center" }}>
+              <div className="flex lg:justify-center max-sm:justify-start">
                 <img
                   src="https://internee.pk/1st-logo.jpg"
                   alt="logo"
                   style={{ width: "18%" }}
                 />
-                <div
-                  style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                  }}
-                >
+                <div className="flex flex-col lg:items-center max-sm:items-start">
                   <h1 className="text-3xl font-bold text-black px-2 py-1 rounded">
                     <b style={{ color: "green" }}>Internee</b>.pk
                   </h1>
@@ -72,7 +58,7 @@ export default function Footer() {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 sm:w-1/6 px-4">
             <h2 className="title-font font-bold text-gray-900  text-xl mb-3">
               Company
             </h2>
@@ -109,7 +95,7 @@ export default function Footer() {
             </nav>
           </div>
 
-          <div className="lg:w-1/4 md:w-1/2 w-full px-4">
+          <div className="lg:w-1/4 md:w-1/2 sm:w-1/6  px-4">
             <h2 className="title-font font-bold text-gray-900 tracking-widest text-xl mb-3">
               Resources
             </h2>

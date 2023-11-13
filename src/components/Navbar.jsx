@@ -6,12 +6,12 @@ export default function Navbar() {
       <header className="relative bg-white">
         <nav
           aria-label="Top"
-          className="bg-gray-100 px-4 sm:px-6 py-5 lg:px-32 shadow-xl"
+          className="px-4 sm:px-6 py-5 lg:px-32 shadow-xl"
         >
           <div className="">
             <div className="flex h-16 items-center justify-between">
               {/* Logo */}
-              <div className="ml-4 flex lg:ml-0">
+              <div className="lg:ml-0 md:ml-3 sm:ml-0 flex ">
                 <Link to={"/"} className="flex">
                   <div className="flex">
                     <img

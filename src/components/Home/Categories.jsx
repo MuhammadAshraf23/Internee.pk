@@ -80,9 +80,7 @@ const Categories = () => {
               className="text-white flex flex-col justify-center items-center h-full"
             >
               <BsRobot size={32} />
-              <small className="mt-2 text-sm">
-                CRMS's & Chatbot Developement{" "}
-              </small>
+              <small className="mt-2 text-sm">Chatbot Developement </small>
               <div
                 className="flex flex-col justify-center items-center rounded-full bg-indigo-500 text-center"
                 style={position}

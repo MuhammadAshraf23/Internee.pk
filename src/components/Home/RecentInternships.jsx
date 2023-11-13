@@ -95,7 +95,7 @@ const RecentInternships = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-end pb-10">
+      <div className="flex lg:justify-end md:justify-end justify-start lg:pb-10 md:pb-10 pb-5">
         <Button
           variant="contained"
           style={{

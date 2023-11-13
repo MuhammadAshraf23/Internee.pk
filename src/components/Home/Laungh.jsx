@@ -5,10 +5,10 @@ const Laungh = () => {
     <div className="container lg:flex justify-center my-10 w-full mx-auto">
       <div className="lg:pr-5 md:pr-0">
         <div
-          className="custom-text-block bg-green-500 px-20 py-20"
+          className="custom-text-block bg-green-500 lg:px-20 md:px-10 sm:px-8 px-5 lg:py-20 md:py-10 sm:py-8 py-5"
           style={{ height: "600px", width: "540px" }}
         >
-          <h2 className="text-white mb-2 font-bold text-4xl leading-relaxed">
+          <h2 className="text-white mb-2 font-bold lg:text-4xl md:text-4xl sm:text-3xl text-2xl leading-relaxed">
             Launching tech careers with internships, exposure, and networking.
           </h2>
           <p className="text-white leading-relaxed">
