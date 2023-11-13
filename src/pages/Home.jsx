@@ -17,8 +17,8 @@ const Home = () => {
         <Laungh />
         <div className='container my-20'>
           <div className='lg:w-1/2 md:w-full'>
-            <h1 className='lg:text-4xl md:text-4xl text-3xl font-bold lg:py-10 md:py-10 py-5'>Recent Internships</h1>
-            <p className='text-gray-500 text-lg'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
+            <h1 className='lg:text-4xl md:text-4xl text-3xl font-bold lg:py-10 md:py-10 py-5 px-3'>Recent Internships</h1>
+            <p className='text-gray-500 text-lg px-3'><b>Internships come every two months </b> Grab your internships in your favorite domain to boost yourself in the field of Computer technology</p>
           </div>
         <RecentInternships />
         </div>
