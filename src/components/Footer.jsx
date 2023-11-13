@@ -126,18 +126,18 @@ export default function Footer() {
               </li>
             </nav>
           </div>
-          <div className="lg:w-1/2 md:w-1/2 h-full w-full px-10 bg-blue-50 rounded-md">
+          <div className="lg:w-1/2 md:w-1/2 h-full max-sm:w-full lg:px-10 md:px-10 max-sm:px-3 bg-blue-50 rounded-md">
             <h2 className="text-xl font-bold mt-5">
               Get Updates About Internships
             </h2>
             <div className="relative pb-10">
-              <BsPerson className="absolute top-12 left-8" />
+              <BsPerson className="absolute lg:top-12 lg:left-24 md:top-12 md:left-9 sm:top-6 sm:left-3 max-sm:top-9 max-sm:left-3" />
               <input
                 type="text"
                 placeholder="yourname@gmail.com"
-                className="p-5 px-10 rounded-full m-5 outline-none"
+                className="p-5 px-10 rounded-full lg:m-5 md:m-5 max-sm:mx-0 max-sm:my-3 outline-none"
               />
-              <CiLocationArrow1 className="absolute top-10 bottom-0 left-60 text-green-500 text-2xl" />
+              <CiLocationArrow1 className="absolute lg:top-10 lg:bottom-0 lg:left-72 md:top-10 md:left-60 sm:top-6 sm:left-52 max-sm:top-9 max-sm:left-56 text-green-500 text-2xl" />
             </div>
           </div>
         </div>
