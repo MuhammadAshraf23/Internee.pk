@@ -12,6 +12,10 @@ const Categories = () => {
     width: "40px",
     height: " 40px",
   };
+  const Colors={
+    borderColor: "#8c52fe",
+    backgroundColor:'#43a724',
+  }
   return (
     <div className="py-12">
       <h1 className="text-4xl font-bold text-center py-10 mb-10">
@@ -20,12 +24,8 @@ const Categories = () => {
       <div className="flex justify-center flex-wrap">
         <div className="lg:w-1/6 md:w-1/3 sm:w-1/3 ">
           <div
-            className="relative p-4 text-center mx-4 bg-green-500 h-full py-10"
-            style={{
-              borderRadius: "100%",
-              borderColor: "indigo",
-              borderWidth: "8px",
-            }}
+            className="relative text-center mx-4 h-[160px] w-[160px] rounded-full border-8"
+            style={Colors}
           >
             <a
               href="web-design.html"
@@ -44,12 +44,8 @@ const Categories = () => {
         </div>
         <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
           <div
-            className="relative p-4 mx-4 text-center bg-green-500 h-full py-10"
-            style={{
-              borderRadius: "100%",
-              borderColor: "indigo",
-              borderWidth: "8px",
-            }}
+          className="relative text-center mx-4 h-[160px] w-[160px] rounded-full border-8"
+          style={Colors}
           >
             <a
               href="web-design.html"
@@ -68,19 +64,15 @@ const Categories = () => {
         </div>
         <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
           <div
-            className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10"
-            style={{
-              borderRadius: "100%",
-              borderColor: "indigo",
-              borderWidth: "8px",
-            }}
+          className="relative text-center mx-4 h-[160px] w-[160px] rounded-full border-8"
+          style={Colors}
           >
             <a
               href="web-design.html"
               className="text-white flex flex-col justify-center items-center h-full"
             >
               <BsRobot size={32} />
-              <small className="mt-2 text-sm">Chatbot Developement </small>
+              <small className="mt-2 text-sm">CRM's Chatbot Developement </small>
               <div
                 className="flex flex-col justify-center items-center rounded-full bg-indigo-500 text-center"
                 style={position}
@@ -92,19 +84,15 @@ const Categories = () => {
         </div>
         <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
           <div
-            className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10"
-            style={{
-              borderRadius: "100%",
-              borderColor: "indigo",
-              borderWidth: "8px",
-            }}
+          className="relative text-center mx-4 h-[160px] w-[160px] rounded-full border-8"
+          style={Colors}
           >
             <a
               href="web-design.html"
               className="text-white flex flex-col justify-center items-center h-full"
             >
               <PiPenNibBold size={32} />
-              <small className="mt-2 text-sm"> Graphics Designing and 3D</small>
+              <small className="mt-2 text-sm"> Graphics Designing & 3D Modeling</small>
               <div
                 className="flex flex-col justify-center items-center rounded-full bg-indigo-500 text-center"
                 style={position}
@@ -116,12 +104,8 @@ const Categories = () => {
         </div>
         <div className="lg:w-1/6 md:w-1/3 sm:w-1/3">
           <div
-            className="relative border mx-4 p-4 text-center bg-green-500 h-full py-10"
-            style={{
-              borderRadius: "100%",
-              borderColor: "indigo",
-              borderWidth: "8px",
-            }}
+          className="relative text-center mx-4 h-[160px] w-[160px] rounded-full border-8"
+          style={Colors}
           >
             <a
               href="web-design.html"

@@ -13,7 +13,7 @@ const Home = () => {
       <Layout>
         <HeroSection />
         <AboutIntern />
-        <Categories />
+        <Categories />    
         <Laungh />
         <div className='container my-20'>
           <div className='lg:w-1/2 md:w-full'>
