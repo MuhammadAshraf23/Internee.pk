@@ -16,7 +16,7 @@ const AboutIntern = () => {
       <div className="lg:w-1/4 h-100 md:w-full lg:pr-5 md:pr-0  ">
         <div className="bg-green-500 h-100 rounded-l-3xl relative">
           <img
-            src="https://internee.pk/images/founder.jpg"
+            src="images/person/founder.jpg"
             style={img}
             className="about-image rounded-l-3xl img-fluid object-cover h-full md:w-full"
             alt=""
@@ -72,7 +72,7 @@ const AboutIntern = () => {
       <div className="lg:w-1/4 w-50 lg:pl-5  md:pl-0">
         <div className="h-100 rounded-r-3xl relative">
           <img
-            src="https://internee.pk/images/rayyan.jpg"
+            src="images/person/rayyan.jpg"
             style={img}
             className="about-image rounded-r-3xl img-fluid object-cover w-full h-full"
             alt=""

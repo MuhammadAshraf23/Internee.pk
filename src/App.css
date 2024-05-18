@@ -12,7 +12,13 @@
 .container {
   margin: 0 auto;
 }
-
+.borderColor{
+  border: 8px solid #8c52fe;
+  transition: border-color 0.3s ease;
+}
+.borderColor:hover{
+  border: 8px solid #ffff;
+}
 @media (max-width: 768px) {
   .custom-text-block {
     width: 100% !important;

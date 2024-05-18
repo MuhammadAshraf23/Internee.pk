@@ -14,7 +14,7 @@ export default function Footer() {
             <Link to={"/"}>
               <div className="flex lg:justify-center max-sm:justify-start">
                 <img
-                  src="https://internee.pk/1st-logo.jpg"
+                  src="images/logo/logo.jpg"
                   alt="logo"
                   style={{ width: "18%" }}
                 />
@@ -141,7 +141,7 @@ export default function Footer() {
                 className="p-5   outline-none rounded-full"
               />
                </div>
-              <button className="rounded-full text-4xl mr-4" style={{backgroundColor:'#43a724'}}>
+              <button className="rounded-full text-4xl mr-4" style={{color:'#43a724'}}>
               <CiLocationArrow1 />
               </button>
               
@@ -242,7 +242,7 @@ export default function Footer() {
           >
             <div className="flex bg-white rounded-full w-1/3">
               <img
-                src="https://internee.pk/1st-logo.jpg"
+                src="images/logo/logo.jpg"
                 alt="logo"
                 className="w-full h-full cover"
               />

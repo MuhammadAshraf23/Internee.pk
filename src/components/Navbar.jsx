@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link to={"/"} className="flex">
                   <div className="flex">
                     <img
-                      src="https://internee.pk/1st-logo.jpg"
+                      src="images/logo/logo.jpg"
                       alt="logo"
                       style={{ width: "18%" }}
                     />

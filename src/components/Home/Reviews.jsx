@@ -3,7 +3,7 @@ import React from "react";
 const Reviews = () => {
   const heroImg = {
     backgroundImage:
-      "url('https://internee.pk/images/millennial-group-young-businesspeople.jpg')",
+      "url('images/background/image.jpg')",
   };
 
   const overlayStyle = {

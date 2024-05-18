@@ -3,7 +3,7 @@ import React from "react";
 function HeroSection() {
   const heroImg = {
     backgroundImage:
-      "url('https://internee.pk/images/close-up-young-business-team-working.jpg')",
+      "url('/images/background/close-up-young-business-team-working.jpg')",
   };
 
   const overlayStyle = {

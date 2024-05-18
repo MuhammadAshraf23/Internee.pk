@@ -31,7 +31,7 @@ const Laungh = () => {
 
       <div className="w-[540px] h-[600px]">  
           <img
-            src="https://internee.pk/images/people-working-as-team-company.jpg"
+            src="images/person/team.jpg"
             className="chineseImage rounded-r-lg img-fluid object-cover h-full"
             alt=""
           />

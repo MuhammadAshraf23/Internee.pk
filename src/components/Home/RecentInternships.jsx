@@ -7,48 +7,48 @@ import { IoLocationOutline } from "react-icons/io5";
 import { BiTime } from "react-icons/bi";
 const trendingCardData = [
   {
-    image: "https://internee.pk/images/jobs/analysis.jpg",
+    image: "images/internships/analysis.jpg",
     title: "Data Analyist",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfB54UTzaFooJ5sTPKDORpX2ZpGosDpLnbVOgvMS6qV8-xXiQ/closedform",
   },
   {
-    image: "https://internee.pk/images/jobs/hack.jpeg",
+    image: "images/internships/hack.jpeg",
     title: "Cyber Security",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSd5vM8tV8vOwnXLXkHSfMUZs6tLWIVv7dcnPTLB2Jh2DYbcjg/closedform",
   },
   {
-    image: "https://internee.pk/images/jobs/cloud.jpg",
+    image: "images/internships/cloud.jpg",
     title: "Cloud Computing",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSfuyq_LSLbiHml7NlnsgvFKBHIa1iuOvJ4y3FGH0hLpFCSOpA/closedform",
   },
   {
-    image: "https://internee.pk/images/jobs/FrontEnd.jpeg",
+    image: "images/internships/FrontEnd.jpeg",
     title: "Frontend Developement",
     link: "https://internee.pk/web-design.html",
   },
   {
-    image: "https://internee.pk/images/jobs/BackendDevelopment.jpeg",
+    image: "images/internships/BackendDevelopment.jpeg",
     title: "Backend Developement",
     link: "https://internee.pk/web-development.html",
   },
   {
-    image: "https://internee.pk/images/jobs/chatbotDevelopment.jpeg",
+    image: "images/internships/chatbotDevelopment.jpeg",
     title: "Chatbot Developement",
     link: "https://internee.pk/chatbot.html",
   },
   {
-    image: "https://internee.pk/images/jobs/Machine%20Learning.jpeg",
+    image: "images/internships/Machine-Learning.jpeg",
     title: "Machine Learning",
     link: "https://docs.google.com/forms/d/e/1FAIpQLSdeML8FaOdydZzxAhgcCssTHBAuIchqVDBAxG-x5SvQJVwPJA/closedform",
   },
   {
-    image: "https://internee.pk/images/jobs/Mobile%20App%20Developer.jpeg",
+    image: "images/internships/Mobile-App-Development.jpeg",
     title: "Mobile App Developement",
     link: "https://internee.pk/mobile-development.html",
   },
   {
     image:
-      "https://internee.pk/images/jobs/logo-designer-working-computer-desktop.jpg",
+      "images/internships/logo-designer-working-computer-desktop.jpg",
     title: "Graphic Design",
     link: "https://internee.pk/graphic.html",
   },
